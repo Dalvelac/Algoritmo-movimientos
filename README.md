@@ -8,7 +8,7 @@ Este proyecto calcula las posibilidades válidas de movimientos de un caballo (p
 
 La fórmula recursiva utilizada para calcular el número de movimientos válidos es la siguiente:
 
-![Fórmula recursiva](Algoritmo-movimientos/Formula recursiva.JPG)
+![Fórmula Recursiva](./Algoritmo-movimientos/Formula%20recursiva.JPG)
 
 **Definiciones**:
 - **M(n, N)**: Es el número de movimientos válidos que puede hacer el caballo desde la posición `n` con `N` movimientos restantes.
@@ -37,7 +37,7 @@ A continuación se muestra el conjunto de movimientos válidos desde cada númer
 
 Planteamos que el caballo se moverá sobre un teclado numérico como el siguiente:
 
-![Teclado numérico](Algoritmo-movimientos/Keypad.JPG)
+![Fórmula Recursiva](./Algoritmo-movimientos/Formula%20recursiva.JPG)
 
 ## Resultados: Tabla de Movimientos Válidos
 
@@ -61,14 +61,16 @@ La siguiente tabla muestra las posibilidades válidas de movimientos en función
 
 El proyecto consta de los siguientes elementos visuales:
 
+El proyecto consta de los siguientes elementos visuales:
+
 1. **Fórmula Recursiva**: Representa la ecuación usada para calcular los movimientos del caballo.
-   ![Fórmula Recursiva](Algoritmo-movimientos/Formula recursiva.JPG)
+   ![Fórmula Recursiva](./Algoritmo-movimientos/Formula%20recursiva.JPG)
 
 2. **Teclado Numérico**: El teclado donde el caballo se mueve.
-   ![Teclado Numérico](Algoritmo-movimientos/Keypad.JPG)
+   ![Teclado Numérico](./Algoritmo-movimientos/Keypad.JPG)
 
 3. **Número de Movimientos Posibles**: La lista de movimientos válidos desde cada número del teclado.
-   ![Número de Movimientos Posibles](Algoritmo-movimientos/Numero de movimientos posibles.JPG)
+   ![Número de Movimientos Posibles](./Algoritmo-movimientos/Numero%20de%20movimientos%20posibles.JPG)
 
 4. **Tabla de Movimientos**: La tabla que muestra los resultados de las posibilidades válidas para diferentes números de movimientos.
-   ![Tabla de Movimientos](Algoritmo-movimientos/Tabla.JPG)
+   ![Tabla de Movimientos](./Algoritmo-movimientos/Tabla.JPG)
