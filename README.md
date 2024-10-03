@@ -57,6 +57,8 @@ La siguiente tabla muestra las posibilidades válidas de movimientos en función
 | 23                      | 1609056256            |
 | 32                      | 2792668987392         |
 
+Los resultados se han obtenido utilizando el codigo que se encuentra bajo el nombre Calculador Movimientos
+
 ## Estructura del Proyecto
 
 El proyecto consta de los siguientes elementos visuales:
