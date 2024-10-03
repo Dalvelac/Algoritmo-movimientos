@@ -57,6 +57,84 @@ La siguiente tabla muestra las posibilidades válidas de movimientos en función
 | 23                      | 1609056256            |
 | 32                      | 2792668987392         |
 
+## Explicación de cada resultado obtenido
+1 Movimiento:
+
+Para 1 movimiento, calculamos los destinos válidos desde cada número directamente (es decir, sin hacer más saltos):
+
+    Desde 1: puede ir a 6 o 8. Hay 2 caminos válidos.
+    Desde 2: puede ir a 7 o 9. Hay 2 caminos válidos.
+    Desde 3: puede ir a 4 o 8. Hay 2 caminos válidos.
+    Desde 4: puede ir a 3, 9, o 0. Hay 3 caminos válidos.
+    Desde 5: no puede moverse, así que hay 0 caminos válidos.
+    Desde 6: puede ir a 1, 7, o 0. Hay 3 caminos válidos.
+    Desde 7: puede ir a 2 o 6. Hay 2 caminos válidos.
+    Desde 8: puede ir a 1 o 3. Hay 2 caminos válidos.
+    Desde 9: puede ir a 2 o 4. Hay 2 caminos válidos.
+    Desde 0: puede ir a 4 o 6. Hay 2 caminos válidos.
+
+Sumando todos estos caminos obtenemos:
+2 + 2 + 2 + 3 + 0 + 3 + 2 + 2 + 2 + 2 = 20 caminos válidos.
+2 Movimientos:
+
+Ahora calculamos cuántos caminos válidos se pueden hacer con 2 movimientos. Para esto, consideramos todos los posibles destinos después de realizar el primer movimiento.
+
+Ejemplo desde 1 (aplicando la fórmula recursiva):
+
+    Desde 1: el caballo puede ir a 6 o 8.
+        Desde 6: puede moverse a 1, 7, o 0.
+        Desde 8: puede moverse a 1 o 3.
+
+Entonces:
+M(1,2)=M(6,1)+M(8,1)=(3)+(2)=5 caminos vaˊlidos desde 1 con 2 movimientos.
+M(1,2)=M(6,1)+M(8,1)=(3)+(2)=5 caminos vaˊlidos desde 1 con 2 movimientos.
+
+Se hace el mismo cálculo para los demás números y se suman todas las posibilidades.
+
+    Para 2 movimientos, el total es 46 caminos válidos.
+
+3 Movimientos:
+
+Continuamos con el mismo proceso para 3 movimientos. El caballo ahora puede hacer 3 saltos en el teclado, y nuevamente sumamos todas las posibilidades válidas desde cada número, utilizando la fórmula recursiva.
+
+    Para 3 movimientos, el total es 104 caminos válidos.
+
+5 Movimientos:
+
+Aplicando el mismo razonamiento, para 5 movimientos:
+
+    El caballo puede realizar 544 caminos válidos en total.
+
+8 Movimientos:
+
+Siguiendo la misma lógica:
+
+    Para 8 movimientos, hay 6576 caminos válidos.
+
+10 Movimientos:
+
+    Para 10 movimientos, hay 34432 caminos válidos.
+
+15 Movimientos:
+
+    Para 15 movimientos, hay 2140672 caminos válidos.
+
+18 Movimientos:
+
+    Para 18 movimientos, hay 25881088 caminos válidos.
+
+21 Movimientos:
+
+    Para 21 movimientos, hay 307302400 caminos válidos.
+
+23 Movimientos:
+
+    Para 23 movimientos, hay 1609056256 caminos válidos.
+
+32 Movimientos:
+
+    Para 32 movimientos, hay 2792668987392 caminos válidos.
+
 Los resultados se han obtenido utilizando el codigo que se encuentra bajo el nombre Calculador Movimientos
 
 ## Estructura del Proyecto
