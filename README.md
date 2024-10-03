@@ -1,2 +1,1 @@
-# Algoritmo-movimientos
-Caballo
+
