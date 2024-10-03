@@ -69,10 +69,11 @@ El proyecto consta de los siguientes elementos visuales:
    ![Fórmula Recursiva](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Formula%20recursiva.JPG)
 
 2. **Teclado Numérico**: El teclado donde el caballo se mueve.
-   ![Teclado numérico](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Keypad.JPG)
 
-3. **Número de Movimientos Posibles**: La lista de movimientos válidos desde cada número del teclado.
+    ![Teclado numérico](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Keypad.JPG)
+
+4. **Número de Movimientos Posibles**: La lista de movimientos válidos desde cada número del teclado.
    ![Número de Movimientos Posibles](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Numero%20de%20movimientos%20posibles.JPG)
 
-4. **Tabla de Movimientos**: La tabla que muestra los resultados de las posibilidades válidas para diferentes números de movimientos.
+5. **Tabla de Movimientos**: La tabla que muestra los resultados de las posibilidades válidas para diferentes números de movimientos.
    ![Tabla de Movimientos](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Tabla.JPG)
