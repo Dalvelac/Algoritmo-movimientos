@@ -8,7 +8,7 @@ Este proyecto calcula las posibilidades válidas de movimientos de un caballo (p
 
 La fórmula recursiva utilizada para calcular el número de movimientos válidos es la siguiente:
 
-![Fórmula Recursiva](Imagenes/Algoritmo-movimientos/Formula%20recursiva.jpg)
+![Fórmula Recursiva](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Formula%20recursiva.JPG)
 
 **Definiciones**:
 - **M(n, N)**: Es el número de movimientos válidos que puede hacer el caballo desde la posición `n` con `N` movimientos restantes.
@@ -35,9 +35,9 @@ A continuación se muestra el conjunto de movimientos válidos desde cada númer
 
 ## Ejemplo de Teclado Numérico
 
-Planteamos que el caballo se moverá sobre un teclado numérico como el siguiente:
+Planteamos que el caballo de ajedrez se moverá sobre un teclado numérico como el siguiente:
 
-![Fórmula Recursiva](Imagenes/Algoritmo-movimientos/Formula%20recursiva.jpg)
+![Teclado numérico](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Keypad.JPG)
 
 ## Resultados: Tabla de Movimientos Válidos
 
@@ -64,13 +64,13 @@ El proyecto consta de los siguientes elementos visuales:
 El proyecto consta de los siguientes elementos visuales:
 
 1. **Fórmula Recursiva**: Representa la ecuación usada para calcular los movimientos del caballo.
-   ![Fórmula Recursiva](Imagenes/Algoritmo-movimientos/Formula%20recursiva.jpg)
+   ![Fórmula Recursiva](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Formula%20recursiva.JPG)
 
 2. **Teclado Numérico**: El teclado donde el caballo se mueve.
-   ![Teclado Numérico](Imagenes/Algoritmo-movimientos/Keypad.jpg)
+   ![Teclado numérico](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Keypad.JPG)
 
 3. **Número de Movimientos Posibles**: La lista de movimientos válidos desde cada número del teclado.
-   ![Número de Movimientos Posibles](Imagenes/Algoritmo-movimientos/Numero%20de%20movimientos%20posibles.jpg)
+   ![Número de Movimientos Posibles](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Numero%20de%20movimientos%20posibles.JPG)
 
 4. **Tabla de Movimientos**: La tabla que muestra los resultados de las posibilidades válidas para diferentes números de movimientos.
-   ![Tabla de Movimientos](Imagenes/Algoritmo-movimientos/Tabla.jpg)
+   ![Tabla de Movimientos](https://github.com/Dalvelac/Algoritmo-movimientos/blob/Imagenes/Tabla.JPG)
